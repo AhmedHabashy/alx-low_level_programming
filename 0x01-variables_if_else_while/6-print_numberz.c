@@ -4,7 +4,7 @@
 *Description: ascii numbers
 *Return: always 0
 */
-int maint(void)
+int main(void)
 {
 	int i;
 
