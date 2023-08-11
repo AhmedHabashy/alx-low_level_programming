@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * main - Entrey point
  * Description: positive is better than negative
