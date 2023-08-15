@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 /**
 *main - Entrey point
 *Description: print string
@@ -7,8 +7,10 @@
 int main(void)
 {
 	char str[] = "_putchar\n";
+	int i;
 
-	printf("%s", str);
+	for (i = 0 ; i < 8 ; i++)
+		_putchar(str[i]);
 
 	return (0);
 }
