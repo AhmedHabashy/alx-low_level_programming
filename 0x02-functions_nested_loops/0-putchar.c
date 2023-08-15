@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 *main - Entrey point
-*Description: print putchar
+*Description: print string
 *Return: always 0
 */
 int main(void)
