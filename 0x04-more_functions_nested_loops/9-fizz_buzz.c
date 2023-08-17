@@ -18,7 +18,7 @@ int main(void)
 		else
 			printf("%d ", i);
 	}
-	putchar('\n');
+	printf("%c", '\n');
 
 	return (0);
 }
