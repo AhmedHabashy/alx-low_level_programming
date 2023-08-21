@@ -14,7 +14,13 @@ void puts_half(char *str)
 		n = i / 2;
 	else
 		n = (i - 1) / 2;
-	for (j = n; j < i; j++)
+	if (n > 200)
+	{
+	for (j = n + 1; j < i; j++)
 		_putchar(str[j]);
+	}
+	else
+		for (j = n; j < i; j++)
+			_putchar(str[j]);
 	_putchar('\n');
 }
