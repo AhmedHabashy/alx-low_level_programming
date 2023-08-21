@@ -6,7 +6,7 @@
  */
 void print_array(int *a, int n)
 {
-	int i;
+	int i, j;
 
 	i = 0;
 	while (a[i] != '\0')
