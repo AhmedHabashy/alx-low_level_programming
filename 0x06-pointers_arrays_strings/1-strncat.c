@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * _strcat - concat stryings on n bytes
+ * _strncat - concat stryings on n bytes
  * @dest: input
  * @n: input
  * @src: input
+ * Return: string
  */
 char *_strncat(char *dest, char *src, int n)
 {
