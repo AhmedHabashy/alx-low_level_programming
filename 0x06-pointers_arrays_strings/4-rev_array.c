@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * reverse_array - reverse array order
- * @a: array to be reversed 
- * @n: number of elments 
+ * @a: array to be reversed
+ * @n: number of elments
  */
 void reverse_array(int *a, int n)
 {
