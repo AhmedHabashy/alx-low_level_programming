@@ -1,9 +1,9 @@
 #include <stdio.h>
-/*
- * main - entery point
- * @argc: argv count
- * @argv: inputed strings
- * Return: 0
+/**
+ * main - prints file name
+ * @argc: count of argv
+ * @argv: passed arguments
+ * Return: always 0
  */
 void main(int argc, char **argv)
 {
