@@ -1,4 +1,4 @@
-#define "main.h"
+#include "main.h"
 /**
  * create_array - creates an array of a size size
  * @size: size of the array
